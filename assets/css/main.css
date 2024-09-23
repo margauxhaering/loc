@@ -1702,7 +1702,7 @@ cards
 
     .hero2-section, .golf{
       padding-left: 10px;
-      padding-top: 450px;
+      padding-top: 350px;
       }
 
 
@@ -1741,3 +1741,10 @@ iframe{
 
 
 }
+
+@media screen and (max-width: 380px) {
+  .hero2-section, .golf{
+    padding-left: 10px;
+    padding-top: 500px;
+    }
+  }

@@ -762,9 +762,9 @@ strong {
 
 
 .slideshow-container {
-    width: 800px; /* Largeur fixe de la galerie */
-    height: 400px; /* Hauteur fixe de la galerie */
-    overflow: hidden; /* Masquer les débordements */
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
     position: relative;
 }
 
@@ -813,7 +813,7 @@ strong {
     height: 100%;
 }
 
-.slide2, .slide3, .slide4 {
+.slide2, .slide3, .slide4, .slide6{
     position: absolute;
     top: 0;
     left: 0;
@@ -1696,7 +1696,7 @@ cards
     width: 72%;
   }
 
-  .hero-section, .chalet-section, .events-section{
+  .hero-section, .chalet-section, .events-section, .contact-section{
     padding-left: 10px;
     }
 
@@ -1734,5 +1734,10 @@ cards
    .img-hover-zoom:hover img{
        transform: scale(1.5);
    }
+
+iframe{
+    width: 360px;
+}
+
 
 }
